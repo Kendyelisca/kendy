@@ -1,0 +1,131 @@
+@media (max-width: 991px) {
+
+    .header {
+        height: 60px;
+        left: 0;  
+    }
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: rgb(254, 242, 242);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        z-index: 100;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: 1s;
+    }
+    .nav-menu-item{
+        line-height: 60px;
+    }
+    .nav-menu-link:hover {
+        background: none;
+        color: #ea2019;
+    }
+    .nav-toggle {
+        display: block;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .sub-part {
+        gap: 10px;
+    }
+   .first-part img {
+    top: -16px;
+   }
+   .card {
+    width: 200px;
+   }
+   .first-im {
+    left: 90px;
+    height: 300px;
+    width: 400px;
+    }
+    .titulo {
+        left: 35%;
+        top: 26%;
+    }
+    .second-im {
+        top: 350px;
+        left: 80px;
+        height: 300px;
+        width: 400px;
+
+    }  
+    .card__content{
+        flex-wrap: wrap;
+    }
+    .quinta-section{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .sub-part{
+        flex-direction:column;
+        text-align: center;
+        gap: 0;
+    }
+    .first-part {
+        height: 809px;
+    }
+    .first-part img {
+        left: 30px;
+    }
+    .first__title {
+        font-size: 26px;
+        width: 200px;
+    }
+    .image {
+        width: auto;
+        margin:0;
+        }
+        .round {
+            width: 350px;
+            height: 350px;
+            margin-top: 0%;
+        }
+    .second-section{
+        padding: 50px;
+    }
+    .text2{
+        width: auto;
+    }
+    .card {
+       width:220px;
+    }
+    .content-card {
+        gap: 20px;
+        flex-wrap: wrap;
+    }  
+    .card__content{
+        margin-left: 0;
+    }
+    .circle__first{
+        width: 500px;
+        height: 500px;
+    }
+    .circle__second{
+        width: 200px;
+        height: 200px;
+    }
+    .conten__items__titulo{
+        font-size: 16px;
+        left: 220px;
+    }
+    .conten__items{
+        margin: 200px 60px  ;
+    }
+}
